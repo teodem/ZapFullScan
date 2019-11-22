@@ -1,4 +1,4 @@
-# This dockerfile builds the zap weekly release
+# This dockerfile builds the zap WEEKLY release
 FROM ubuntu:16.04
 LABEL maintainer="psiinon@gmail.com"
 
