@@ -51,7 +51,8 @@ RUN curl -s https://raw.githubusercontent.com/zaproxy/zap-admin/master/ZapVersio
 
 
 ENV JAVA_HOME /usr/lib/jvm/java-8-openjdk-amd64/
-ENV PATH $JAVA_HOME/bin:/zap/:$PATH
+#ENV PATH $JAVA_HOME/bin:/zap/:$PATH
+ENV PATH=/usr/lib/jvm/java-8-openjdk-amd64//bin:/zap/:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
 ENV ZAP_PATH /zap/zap.sh
 
 # Default port for use with zapcli
